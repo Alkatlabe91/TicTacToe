@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Objects and classes in JavaScript</title>
+    <meta charset="utf-8">
+    <link rel="STYLESHEET" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <h1 id="portfolio"><i class="fa fa-undo" aria-hidden="true"></i> <a href="../index.html">Mijn Portfolio </a></h1>
+    <div class="page-title">
+        <h1 class="title-text">
+            ✌️ It takes two to Tic Tac Toe! ✌️
+        </h1>
+    </div>
+    <div class="players-container">
+        <div class="game-container">
+            <div class="row">
+                <div class="column add-players">
+                    <div class="row">
+                        Create a new player:
+                        <br>
+                        <input name="player-name" type="text" class="input-field input-field-player-name"
+                            placeholder="name">
+                    </div>
+                    <button type="button" class="button add-player-button">Add player</button>
+                    <div class="row">
+                        <p>
+                            <button type="button" class="button reset-game-button">Reset game</button>
+                        </p>
+                    </div>
+                </div>
+                <row>
+                    <div class="column">
+                        <div class="player-info-container">
+                            <div class="player-one-label">
+                                Player One
+                            </div>
+                            <h2 class="game-status"></h2>
+                            <div>
+                                <button type="button" class="add-points-button add-points-player1-button"></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="player-info-container">
+                            <div class="player-two-label">
+                                Player Two
+                            </div>
+                            <div>
+                                <button type="button" class="add-points-button add-points-player2-button"></button>
+                            </div>
+                        </div>
+                    </div>
+                    <row>
+                        <div class="tic-tac-toe-board">
+                            <div class="box"></div>
+                            <div class="box"></div>
+                            <div class="box"></div>
+                            <div class="box"></div>
+                            <div class="box"></div>
+                            <div class="box"></div>
+                            <div class="box"></div>
+                            <div class="box"></div>
+                            <div class="box"></div>
+                        </div>
+                    </row>
+                </row>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="js/main.js"></script>
+</body>
+
+</html>
